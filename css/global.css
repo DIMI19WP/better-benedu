@@ -13,16 +13,22 @@ body {
 }
 
 img.pull-left {
-  content: url("https://raw.githubusercontent.com/HyeokjinKang/better-benedu/master/icon64.png");
+  cursor: pointer;
+  content: url("https://raw.githubusercontent.com/HyeokjinKang/better-benedu/master/contents/icon64.png");
   margin-top: 6px;
   height: 24px;
 }
+
 .menu-min {
   width: 60px !important;
 }
 
 .sidebar.menu-min.compact {
   width: 60px !important;
+}
+
+.sidebar-shortcuts {
+  display: none;
 }
 
 .sidebar-shortcuts-mini {
@@ -99,4 +105,8 @@ small > a {
 /* 푸터 삭제 */
 .footer {
   display: none;
+}
+
+.skin-2 .nav-list>li>a>.arrow, .skin-2 .nav-list>li>a>.menu-text {
+  color: white !important;
 }
